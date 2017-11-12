@@ -12,8 +12,8 @@ class Question {
     return this._All;
   }
   static Find(id) {
-    
-    return this._All[id-1].content;
+
+    return this._All[id-1];
   }
 }
 
